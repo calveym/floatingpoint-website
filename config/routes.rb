@@ -1,13 +1,13 @@
 Rails.application.routes.draw do
-  get 'site/home'
+  get '/' => 'site#home'
 
-  get 'site/contact'
+  get '/contact' => 'site#contact'
 
-  get 'site/presskit'
+  get '/presskit' => 'site#presskit'
 
-  get 'site/blog'
+  get '/blog' => 'site#blog'
 
-  get 'site/team'
+  get '/team' => 'site#team'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
