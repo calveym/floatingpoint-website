@@ -56,26 +56,26 @@
     	height: 100%;
     }
 
-    .description {
+    .description, .opt-in {
       background: #3A7C85;
       color: #fff;
       font-size: 18px;
       padding: 50px 0;
     }
 
-    .description p, .description ul {
+    .opt-in {
+      background-color: #c8fff8;
+      color: #1A674F;
+      padding: 80px 0;
+    }
+
+    .description , .opt-in {
       text-align: center;
     }
 
-    .description h2 {
+    .description h2, .opt-in h2 {
       margin-top: 0;
       margin-bottom: 40px;
-      width: 385px;
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      border-bottom: 3px solid #fff;
-      padding-bottom: 16px;
     }
 
     .footer {
@@ -86,6 +86,37 @@
       padding: 10px 0;
       text-transform: uppercase;
     }
+
+    .opt-in .form-group label {
+      margin-bottom: 20px !important;
+    }
+
+    .opt-in .form-control {
+      width: 600px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: 18px;
+      height: 40px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .opt-in .submit {
+      max-width: 100%;
+      background: #d5b143 !important;
+      color: #fff;
+      width: 180px;
+      border: none;
+      height: 40px;
+      font-size: 18px;
+    }
+
+    .opt-in .btn-default:active:hover {
+      color: #FFF;
+    }
+
   </style>
 </head>
 <body>
