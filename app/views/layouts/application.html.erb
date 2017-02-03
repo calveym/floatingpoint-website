@@ -77,6 +77,15 @@
       border-bottom: 3px solid #fff;
       padding-bottom: 16px;
     }
+
+    .footer {
+      background-color: #138875;
+      border: none;
+      border-radius: 0;
+      color: #fff;
+      padding: 10px 0;
+      text-transform: uppercase;
+    }
   </style>
 </head>
 <body>
@@ -104,9 +113,11 @@
     </div><!-- /.container-fluid -->
   </nav>
   <%= yield %>
-  <div class="container">
-    <div class="row">
-      <p style="text-align: center;``">This is the footer!</p>
+  <div class="container-fluid footer">
+    <div class="container">
+      <div class="row">
+        <p style="text-align: center;``">&copy; Cloud City VR 2017</p>
+      </div>
     </div>
   </div>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
