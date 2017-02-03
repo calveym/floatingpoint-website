@@ -15,18 +15,30 @@
     .navbar {
       background-color: #138875;
       border: none;
+      border-radius: 0;
       padding: 10px 0;
       margin: 0;
     }
 
-    .navbar.navbar-default li a, .navbar.navbar-default a {
+    .navbar.navbar-default li a{
       color: #b9e3c9;
       font-size: 18px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .navbar.navbar-default li a:hover {
+      color: #f7f9f8;
     }
 
     .navbar .navbar-header .navbar-brand {
       font-size: 22px;
       font-weight: bold;
+      color: #b9e3c9;
+    }
+
+    .navbar .navbar-header .navbar-brand:hover {
+      color: #f7f9f8;
     }
 
     .videoWrapper {
@@ -43,10 +55,11 @@
     	width: 100%;
     	height: 100%;
     }
+
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -77,5 +90,6 @@
   </div>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
