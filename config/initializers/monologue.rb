@@ -1,7 +1,8 @@
 Monologue.config do |config|
-  config.site_name = "Cloud City"
+
+  config.site_name = "My blog"
   config.site_subtitle = "my own place online"
-  config.site_url = "http://localhost:3000/site/blog#"
+  config.site_url = "http://example.com"
 
   config.meta_description = "This is my blog about..."
   config.meta_keyword = "music, fun"
@@ -17,7 +18,7 @@ Monologue.config do |config|
   config.facebook_like_locale = "en_US" # "fr_CA"
   config.google_plusone_locale = "en"
 
-  config.layout               = "layouts/application"
+  # config.layout               = "layouts/application"
 
   # ANALYTICS
   # config.gauge_analytics_site_id = "YOUR COGE FROM GAUG.ES"
