@@ -21,4 +21,8 @@
 .byebug_history
 
 # Ignore YAML files
-*.yml
+/config/secrets.yml
+/config/database.yml
+
+# Ignore folder
+/public/assets/
