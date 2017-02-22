@@ -25,4 +25,8 @@ test:
 
 production:
   <<: *default
-  database: cloud_city_development
+  database: digitaloceantesting
+  username: digitaloceantesting
+  url: <%= ENV["DATABASE_URL"] %>
+  host: localhost
+
