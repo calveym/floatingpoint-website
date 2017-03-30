@@ -9,3 +9,12 @@ You start with a floating island that needs some work. Entice your population to
    * Walk around your city in first person
    * Smart road drawing and deleting
    * Algorithms for driving your economy and population growth
+
+
+#### Instructions for website updates:
+log into the Digital Ocean server
+switch to staging branch
+pull master to staging
+checkout into master and merge staging into master
+restart server with `sudo nginx -s reload`
+Changes applied
