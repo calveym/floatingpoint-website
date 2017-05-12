@@ -12,9 +12,10 @@ You start with a floating island that needs some work. Entice your population to
 
 
 #### Instructions for website updates:
-log into the Digital Ocean server
-switch to staging branch
-pull master to staging
-checkout into master and merge staging into master
-restart server with `sudo nginx -s reload`
-Changes applied
+
+* log into the Digital Ocean server
+* switch to staging branch
+* pull master to staging
+* checkout into master and merge staging into master
+* restart server with `sudo nginx -s reload`
+* Changes applied
